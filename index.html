@@ -3,23 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Colin Michel – Game Development & Production</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>Colin Michel – Portfolio</title>
+  <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 <div class="container">
+  
   <!-- Left Sidebar -->
   <aside class="sidebar">
     <div class="profile">
-      <img src="images/Profile_Colin.jpg" alt="Colin Michel" class="profile-img">
+      <img src="images/Profile_Colin.jpeg" alt="Colin Michel" class="profile-img">
       <h1>Colin Michel</h1>
       <p>Game Development & Production</p>
     </div>
     <nav class="navigation">
       <ul>
         <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#resume">Resume</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="resume.html">Resume</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
@@ -30,10 +31,19 @@
 
   <!-- Main Content -->
   <main class="content">
-    <section id="projects" class="projects">
+    
+    <!-- About -->
+    <section class="intro">
+        <h2>Welcome to My Portfolio</h2>
+        <p>I'm Colin Michel, a game developer specializing in Unity and C#. Here are some of my projects:</p>
+    </section>
+    
+    <h2 class="section-title">My Projects</h2>
+    <section id="projects" class="project-grid">
+            
       <!-- Project 1 - Wickie -->
-      <div class="project-card">
-        <img src="images/Project_Wickie.png" alt="Game Scene" class="project-img">
+      <a href="projects/wickie.html" class="project-card">
+        <img src="images/WICKIE/Thumbnail_WICKIE.png" alt="Game Scene" class="project-img">
         <div class="card-info">
           <p class="description">A cool game I developed using Unity.</p>
           <div class="tags">
@@ -41,10 +51,12 @@
             <span class="tag">C#</span>
           </div>
         </div>
-      </div>
+      </a>
+      
+      
       <!-- Project 2 - DELVE -->
       <div class="project-card">
-        <img src="images/Project_Wickie.png" alt="Game Scene" class="project-img">
+        <img src="images/DELVE/Thumbnail_DELVE.jpg" alt="Game Scene" class="project-img">
         <div class="card-info">
           <p class="description">Another exciting project!</p>
           <div class="tags">
@@ -53,10 +65,11 @@
           </div>
         </div>
       </div>
-      <!-- Add more cards as needed -->
-      <!-- Project 3 - DELVE -->
+      
+      
+      <!-- Project 3 - STRIBE -->
       <div class="project-card">
-        <img src="images/Project_Wickie.png" alt="Game Scene" class="project-img">
+        <img src="images/STRIBE/Thumbnail_STRIBE.png" alt="Game Scene" class="project-img">
         <div class="card-info">
           <p class="description">Project 3 ???</p>
           <div class="tags">

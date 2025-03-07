@@ -1,0 +1,60 @@
+@import url("sidebar.css");
+@import url("projects.css");
+@import url("about.css");
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.content {
+    flex-grow: 1;
+    background-color: #fff;
+    padding: 20px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    min-height: 100vh;
+}
+
+
+h1 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 1rem;
+    color: #aaa;
+}
+
+
+.section-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+footer {
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: 20px;
+    color: #aaa;
+}
+
+footer p {
+    font-size: 0.9rem;
+    color: #aaa;
+}
