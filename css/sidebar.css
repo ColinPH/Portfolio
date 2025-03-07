@@ -1,12 +1,37 @@
-
 .sidebar {
+    position: sticky;
+    top: 0;
     width: 250px;
+    height: 100vh;
     background-color: #333;
     color: #fff;
     padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.profile {
+    position: relative;
+    top: 0; /* Sticks to the top of the screen */
+    text-align: center;
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.navigation {
+    background-color: #333; /* Optional: background color for better visibility */
+    padding-top: 20px; /* Optional: add padding if needed */
+    align-items: center;
+}
+
+.navigation ul {
+    list-style-type: none;
+    padding: 0;
 }
 
 .navigation li {
@@ -17,21 +42,13 @@
     color: #fff;
     text-decoration: none;
     font-size: 1.1rem;
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease; /* Optional: transition for regular state too */
 }
 
-.navigation ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-
-.profile {
-    text-align: center;
-}
-
-.profile-img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+.navigation a.active {
+    font-weight: bold;
+    transform: scale(1.1);
+    padding: 10px 15px; /* Adds extra padding to make the active state bigger */
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease, padding 0.3s ease;
 }
 

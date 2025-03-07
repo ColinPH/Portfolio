@@ -18,10 +18,10 @@
     </div>
     <nav class="navigation">
       <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="resume.html">Resume</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#anchor-about">About</a></li>
+        <li><a href="#anchor-projects">Projects</a></li>
+        <li><a href="#anchor-resume">Resume</a></li>
+        <li><a href="#anchor-contact">Contact</a></li>
       </ul>
     </nav>
     <footer>
@@ -33,53 +33,129 @@
   <main class="content">
     
     <!-- About -->
-    <section class="intro">
+    <h2 id="anchor-about" class="section-title">About Me</h2>
+    <section id="about" class="about">
         <h2>Welcome to My Portfolio</h2>
         <p>I'm Colin Michel, a game developer specializing in Unity and C#. Here are some of my projects:</p>
     </section>
-    
-    <h2 class="section-title">My Projects</h2>
+
+    <!-- Projects -->    
+    <h2 id="anchor-projects" class="section-title">My Projects</h2>
     <section id="projects" class="project-grid">
             
       <!-- Project 1 - Wickie -->
-      <a href="projects/wickie.html" class="project-card">
-        <img src="images/WICKIE/Thumbnail_WICKIE.png" alt="Game Scene" class="project-img">
-        <div class="card-info">
-          <p class="description">A cool game I developed using Unity.</p>
-          <div class="tags">
-            <span class="tag">Unity</span>
-            <span class="tag">C#</span>
+      <a href="projects/WICKIE/wickie.html" class="project-card">
+        <img src="projects/WICKIE/images/Thumbnail_WICKIE.png" alt="WICKIE project thumbnail." class="project-thumbnail-img">
+        <div class="project-info">
+          <p class="project-description">A visual and contemplative puzzle game.</p>
+          <div class="project-tags">
+            <span class="project-tag-role">Producer</span>
+            <span class="project-tag-tech">Collaboration</span>
+            <span class="project-tag-tech">Management</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- Project 2 - FRAMEWORK -->
+      <a href="projects/FRAMEWORK/framework.html" class="project-card">
+        <img src="projects/FRAMEWORK/images/Thumbnail_FRAMEWORK.jpg" alt="FRAMEWORK project thumbnail." class="project-thumbnail-img">
+        <div class="project-info">
+          <p class="project-description">XXXXX</p>
+          <div class="project-tags">
+            <span class="project-tag-role">Developer</span>
+            <span class="project-tag-tech">Unity</span>
+            <span class="project-tag-tech">C#</span>
+            <span class="project-tag-tech">Verdaccio</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- Project 3 - STRIBE -->
+      <a href="projects/STRIBE/stribe.html" class="project-card">
+        <img src="projects/STRIBE/images/Thumbnail_STRIBE.png" alt="STRIBE project thumbnail." class="project-thumbnail-img">
+        <div class="project-info">
+          <p class="project-description">XXXXX</p>
+          <div class="project-tags">
+            <span class="project-tag-role">Developer</span>
+            <span class="project-tag-role">Producer</span>
+            <span class="project-tag-tech">AR</span>
+            <span class="project-tag-tech">Vuforia</span>
+            <span class="project-tag-tech">Unity</span>
+            <span class="project-tag-tech">C#</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- Project 4 - SERVER -->
+      <a href="projects/SERVER/server.html" class="project-card">
+        <img src="projects/SERVER/images/Thumbnail_SERVER.jpg" alt="SERVER project thumbnail." class="project-thumbnail-img">
+        <div class="project-info">
+          <p class="project-description">XXXXX</p>
+          <div class="project-tags">
+            <span class="project-tag-role">Developer</span>
+            <span class="project-tag-role">Sys Admin</span>
+            <span class="project-tag-tech">Jenkins</span>
+            <span class="project-tag-tech">Git</span>
+            <span class="project-tag-tech">Linux</span>
+            <span class="project-tag-tech">Docker</span>
+            <span class="project-tag-tech">Samba</span>
+            <span class="project-tag-tech">C#</span>
           </div>
         </div>
       </a>
       
-      
-      <!-- Project 2 - DELVE -->
-      <div class="project-card">
-        <img src="images/DELVE/Thumbnail_DELVE.jpg" alt="Game Scene" class="project-img">
-        <div class="card-info">
-          <p class="description">Another exciting project!</p>
-          <div class="tags">
-            <span class="tag">Unity</span>
-            <span class="tag">Producer</span>
+      <!-- Project 5 - DELVE -->
+      <a href="projects/DELVE/delve.html" class="project-card">
+        <img src="projects/DELVE/images/Thumbnail_DELVE.jpg" alt="DELVE project thumbnail." class="project-thumbnail-img">
+        <div class="project-info">
+          <p class="project-description">XXXXX</p>
+          <div class="project-tags">
+            <span class="project-tag-role">Developer</span>
+            <span class="project-tag-role">Producer</span>
+            <span class="project-tag-tech">Unity</span>
+            <span class="project-tag-tech">C#</span>
           </div>
         </div>
-      </div>
+      </a>
       
-      
-      <!-- Project 3 - STRIBE -->
-      <div class="project-card">
-        <img src="images/STRIBE/Thumbnail_STRIBE.png" alt="Game Scene" class="project-img">
-        <div class="card-info">
-          <p class="description">Project 3 ???</p>
-          <div class="tags">
-            <span class="tag">Unity</span>
-            <span class="tag">Producer</span>
+      <!-- Project 6 - TOOLS -->
+      <a href="projects/TOOLS/tools.html" class="project-card">
+        <img src="projects/TOOLS/images/Thumbnail_TOOLS.png" alt="TOOLS project thumbnail." class="project-thumbnail-img">
+        <div class="project-info">
+          <p class="project-description">XXXXX</p>
+          <div class="project-tags">
+            <span class="project-tag-role">Developer</span>
+            <span class="project-tag-tech">Unity Editor</span>
+            <span class="project-tag-tech">C#</span>
+            <span class="project-tag-tech">Development Tools</span>
           </div>
         </div>
-      </div>
+      </a>            
     </section>
+    
+    <!-- Resume -->
+    <h2 id="anchor-resume" class="section-title">Resume</h2>
+    <section id="resume" class="resume">
+      <h2>This is my resume</h2>
+      <h2>This is my resume</h2>
+      <h2>This is my resume</h2>
+      <h2>This is m</h2>
+      <h2>This is my resume</h2>
+      <h2>This is my resume</h2>
+      <h2>This is my resume</h2>
+      <p>fgfdggfdg pfg ejori goejoejo</p>
+    </section>
+
+    <!-- Contact -->
+    <h2 id="anchor-contact" class="section-title">Contact</h2>
+    <section>
+      <h2>This is my resume</h2>
+      <h2>This is my resume</h2>
+      <h2>This is my resume</h2>
+    </section>
+    
   </main>
 </div>
+<script src="javascript/SidebarNavigationHighlight.js"></script>
 </body>
 </html>

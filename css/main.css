@@ -2,6 +2,10 @@
 @import url("projects.css");
 @import url("about.css");
 
+html {
+    scroll-behavior: smooth; /* Smooth scrolling on all anchor links */
+}
+
 .container {
     display: flex;
     flex-direction: row;
