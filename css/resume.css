@@ -4,23 +4,26 @@
     padding: 20px;
 }
 
+.resume-subsection {
+
+}
+
+
+
 .resume-experience {
     display: grid;
     grid-template-columns: 1fr 1fr 2fr; /* Title, Metadata, Description */
     gap: 20px;
     padding: 25px 0;
-    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
 }
-
 .resume-experience-title {
     text-align: left;
     max-width: 200px;
 }
-
 .resume-experience-title-game {
     font-style: italic;
 }
-
 .resume-experience-title-company {
     font-weight: bold;
     margin-top: 10px;
@@ -32,33 +35,37 @@
     color: inherit; /* Keeps text color consistent */
     transition: color 0.5s, transform 0.5s;
 }
-
 .resume-experience-metadata {
     max-width: 200px;
 }
-
 .resume-experience-metadata-date {
     font-style: italic;
     color: gray;
     margin-bottom: 5px;
 }
-
 .resume-experience-metadata-position {
     font-weight: bold;
 }
-
 .resume-experience-description {
     text-align: justify;
 }
 
+
+
 .resume-competences {
     display: grid;
-    grid-template-columns: 1fr 1fr 2fr; /* Title, Metadata, Description */
+    grid-template-columns: 1fr 3fr; /* Title, Metadata, Description */
     gap: 15px;
     padding: 10px 0;
     border-bottom: 1px solid #ddd;
 }
-
-.resume-competences.two-column {
-    grid-template-columns: 1fr 2fr; /* Title, Description */
+.resume-competences-title {
+    
+}
+.resume-competences-description {
+    
+}
+.resume-competences-description p {
+    margin-top: 5px;
+    color: inherit;
 }
