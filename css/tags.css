@@ -1,0 +1,24 @@
+﻿
+.tags-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.tag-role {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+
+.tag-tech {
+    background-color: darkgray;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}

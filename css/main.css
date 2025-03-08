@@ -1,6 +1,8 @@
 @import url("sidebar.css");
 @import url("projects.css");
 @import url("about.css");
+@import url("resume.css");
+@import url("tags.css");
 
 html {
     scroll-behavior: smooth; /* Smooth scrolling on all anchor links */

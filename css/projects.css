@@ -30,31 +30,3 @@
     font-size: 1rem;
     margin-bottom: 10px;
 }
-
-.project-tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-}
-
-.project-tag-role {
-    background-color: #333;
-    color: #fff;
-    padding: 5px 10px;
-    border-radius: 20px;
-    font-size: 0.9rem;
-    transition: background-color 0.3s ease;
-}
-
-.project-tag-tech {
-    background-color: darkgray;
-    color: #fff;
-    padding: 5px 10px;
-    border-radius: 20px;
-    font-size: 0.9rem;
-    transition: background-color 0.3s ease;
-}
-
-.project-tag-role:hover {
-    background-color: #555;
-}
