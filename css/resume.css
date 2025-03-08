@@ -69,3 +69,44 @@
     margin-top: 5px;
     color: inherit;
 }
+
+
+
+.resume-education {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.resume-education-date {
+    
+}
+.resume-education-description {
+
+}
+.resume-education-location {
+
+}
+
+
+
+.resume-language{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.resume-language-type{
+
+}
+.resume-language-level{
+
+}
+
+
+.resume-hobbies{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.resume-hobbies-title {
+    
+}
+.resume-hobbies-description {
+    
+}
