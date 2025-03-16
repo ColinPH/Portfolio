@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     const container = document.getElementById("project-cards-container");
     const filter = container.getAttribute("project-tag");
 
@@ -12,11 +12,27 @@ document.addEventListener("DOMContentLoaded", function() {
 
         const card = document.createElement("div");
         card.classList.add("project-card");
-        card.innerHTML = `
-                <img src="${project.image}" alt="${project.title}" class="project-image">
-                <h3>${project.title}</h3>
-                <p>${project.description}</p>
-                <a href="${project.link}" class="project-link">View Project</a>
+        
+        // Generate tags dynamically
+        const roleTagElements = project.roleTags.map(role => {
+            return `<span class="tag-role">${role}</span>`;
+        });
+        const competenceTagElements = project.competenceTags.map(tech => {
+            return `<span class="tag-tech">${tech}</span>`;
+        });
+        const allTagElements = roleTagElements.concat(competenceTagElements);
+        const tags = allTagElements.join("");
+
+        card.innerHTML = `   
+                <a href="${project.link}" class="project-card">
+                    <img src="${project.thumbnail}" alt="${project.imageAlt}" class="project-thumbnail-img">
+                    <div class="project-info">
+                        <p class="project-description">${project.description}</p>
+                        <div class="tags-group">
+                            ${tags}
+                        </div>
+                    </div>
+                </a>
             `;
         container.appendChild(card);
     });
