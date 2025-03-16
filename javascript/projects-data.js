@@ -1,15 +1,23 @@
 const projectsData = [
     {
-        link: "projects/WICKIE/Project_WICKIE.html",
-        thumbnail: "projects/WICKIE/images/Thumbnail_WICKIE.png",
-        description: "DADIU project of 2022. A visual and contemplative puzzle game. Made with a multidisciplinary team of 17 over 10 weeks.",
-        tags: ["Producer", "Collaboration", "Management"]
+        title: "Project A",
+        image: "projects/A/image.png",
+        description: "Description of Project A",
+        link: "projects/A/index.html",
+        categories: ["all", "game", "featured", "collaboration"]
     },
     {
-        title: "Project 2",
-        description: "Description for project 2",
-        image: "images/project2.jpg",
-        link: "projects/project2.html"
+        title: "Project B",
+        image: "projects/B/image.png",
+        description: "Description of Project B",
+        link: "projects/B/index.html",
+        categories: ["all", "game", "management"]
     },
-    // Add all your projects here...
+    {
+        title: "Project C",
+        image: "projects/C/image.png",
+        description: "Description of Project C",
+        link: "projects/C/index.html",
+        categories: ["all", "design", "management"]
+    }
 ];
