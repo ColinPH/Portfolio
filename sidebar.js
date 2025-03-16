@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Loop through each section with the class "sidebar-section" to create a sidebar link for each
     sections.forEach(section => {
-        const title = section.getAttribute('data-title');  // Get the title of the section using the "data-title" attribute
+        const title = section.getAttribute('sidebar-section-title');  // Get the title of the section using the "data-title" attribute
         const pageLink = section.getAttribute('page-link');  // Get the title of the section using the "data-title" attribute
         const link = document.createElement("li");  // Create a new <li> element for the link
         link.innerHTML = `<a href="${pageLink}">${title}</a>`;  // Create the link inside the <li>
