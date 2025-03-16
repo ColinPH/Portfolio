@@ -47,10 +47,16 @@ p {
 
 
 .section-title {
+    padding-top: 50px;
     text-align: center;
     font-size: 2rem;
     margin-bottom: 20px;
     color: #333;
+}
+
+.more-projects {
+    padding: 50px;
+    text-align: center;
 }
 
 footer {
