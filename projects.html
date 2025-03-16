@@ -8,40 +8,19 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-<div class="container">
-
+<div class="main-horizontal-container">
     <!-- Left Sidebar -->
-    <aside class="sidebar">
-        <div class="profile">
-            <img src="images/Profile_Colin.jpeg" alt="Colin Michel" class="profile-img">
-            <h1>Colin Michel</h1>
-            <p>Game Development & Production</p>
-        </div>
-        <div class="home-button">
-            <a href="index.html">
-                Home
-            </a>
-        </div>
-        <nav class="navigation">
-            <ul>
-                <li><a href="#anchor-about">About</a></li>
-                <li><a href="#anchor-projects">Projects</a></li>
-                <li><a href="#anchor-resume">Resume</a></li>
-                <li><a href="#anchor-contact">Contact</a></li>
-            </ul>
-        </nav>
-        <footer>
-            <p>March 2025</p>
-        </footer>
-    </aside>
+    <div id="sidebar-container"></div>
 
-    <!-- Main Content -->
     <main class="content">
+        
+        <!-- Projects -->
         <h2 id="anchor-projects" class="section-title">My Projects</h2>
         <section id="projects" class="project-grid">
-
+            
             <!-- Project 1 - Wickie -->
-            <a href="projects/WICKIE/wickie.html" class="project-card">
+            <a href="projects/WICKIE/Project_WICKIE.html" class="project-card">
+                <div class="sidebar-section" data-title="Wickie & The Soul Keeper" page-link="projects/WICKIE/Project_WICKIE.html"></div>
                 <img src="projects/WICKIE/images/Thumbnail_WICKIE.png" alt="WICKIE project thumbnail." class="project-thumbnail-img">
                 <div class="project-info">
                     <p class="project-description">DADIU project of 2022. A visual and contemplative puzzle game. Made with a multidisciplinary team of 17 over 10 weeks.</p>
@@ -54,7 +33,8 @@
             </a>
 
             <!-- Project 2 - FRAMEWORK -->
-            <a href="projects/FRAMEWORK/framework.html" class="project-card">
+            <a href="projects/FRAMEWORK/Project_FRAMEWORK.html" class="project-card">
+                <div class="sidebar-section" data-title="FRAMEWORK"></div>
                 <img src="projects/FRAMEWORK/images/Thumbnail_FRAMEWORK.jpg" alt="FRAMEWORK project thumbnail." class="project-thumbnail-img">
                 <div class="project-info">
                     <p class="project-description">XXXXX</p>
@@ -68,7 +48,8 @@
             </a>
 
             <!-- Project 3 - STRIBE -->
-            <a href="projects/STRIBE/stribe.html" class="project-card">
+            <a href="projects/STRIBE/Project_STRIBE.html" class="project-card">
+                <div class="sidebar-section" data-title="STRIBE"></div>
                 <img src="projects/STRIBE/images/Thumbnail_STRIBE.png" alt="STRIBE project thumbnail." class="project-thumbnail-img">
                 <div class="project-info">
                     <p class="project-description">Self published card-based game with character animations in Augmented Reality. Product reached 200% of original crowdfunding campaign goal.</p>
@@ -84,7 +65,8 @@
             </a>
 
             <!-- Project 4 - SERVER -->
-            <a href="projects/SERVER/server.html" class="project-card">
+            <a href="projects/SERVER/Project_SERVER.html" class="project-card">
+                <div class="sidebar-section" data-title="CI/CD Game-Dev Server"></div>
                 <img src="projects/SERVER/images/Thumbnail_SERVER.jpg" alt="SERVER project thumbnail." class="project-thumbnail-img">
                 <div class="project-info">
                     <p class="project-description">XXXXX</p>
@@ -103,6 +85,7 @@
 
             <!-- Project 5 - DELVE -->
             <a href="projects/DELVE/Project_DELVE.html" class="project-card">
+                <div class="sidebar-section" data-title="DELVE"></div>
                 <img src="projects/DELVE/images/Thumbnail_DELVE.jpg" alt="DELVE project thumbnail." class="project-thumbnail-img">
                 <div class="project-info">
                     <p class="project-description">Master Thesis Project.</p>
@@ -116,7 +99,8 @@
             </a>
 
             <!-- Project 6 - TOOLS -->
-            <a href="projects/TOOLS/tools.html" class="project-card">
+            <a href="projects/TOOLS/Project_TOOLS.html" class="project-card">
+                <div class="sidebar-section" data-title="Development Tools"></div>
                 <img src="projects/TOOLS/images/Thumbnail_TOOLS.png" alt="TOOLS project thumbnail." class="project-thumbnail-img">
                 <div class="project-info">
                     <p class="project-description">XXXXX</p>
@@ -131,6 +115,6 @@
         </section>
     </main>
 </div>
-<script src="javascript/SidebarNavigationHighlight.js"></script>
+<script src="sidebar.js" id="sidebarCaller" data-depth="0"></script>
 </body>
 </html>

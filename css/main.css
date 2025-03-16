@@ -8,7 +8,7 @@ html {
     scroll-behavior: smooth; /* Smooth scrolling on all anchor links */
 }
 
-.container {
+.main-horizontal-container {
     display: flex;
     flex-direction: row;
     width: 100%;
