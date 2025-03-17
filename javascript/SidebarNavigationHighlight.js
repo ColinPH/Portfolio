@@ -3,7 +3,6 @@
 
 // Get all sections and navigation links
 const sections = document.querySelectorAll('section');
-const navLinks = document.querySelectorAll('.navigation a');
 
 // Function to check the visibility of a section in the middle of the viewport
 function checkSectionVisibility() {
@@ -29,6 +28,7 @@ function checkSectionVisibility() {
         }
     });
 
+    let navLinks = document.querySelectorAll('.navigation a');
     // Highlight the matching navigation link
     navLinks.forEach((link) => {
         link.classList.remove('active'); // Remove active class from all links

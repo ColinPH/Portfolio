@@ -10,31 +10,15 @@
 <div class="main-horizontal-container">
   
   <!-- Left Sidebar -->
-  <aside class="sidebar">
-    <div class="profile">
-      <img src="images/Profile_Colin.jpeg" alt="Colin Michel" class="profile-img">
-      <h1>Colin Michel</h1>
-      <p>Game Development & Production</p>
-    </div>
-    <nav class="navigation">
-      <ul>
-        <li><a href="#anchor-about">About</a></li>
-        <li><a href="#anchor-projects">Projects</a></li>
-        <li><a href="#anchor-resume">Resume</a></li>
-        <li><a href="#anchor-contact">Contact</a></li>
-      </ul>
-    </nav>
-    <footer>
-      <p>March 2025</p>
-    </footer>
-  </aside>
+  <div id="sidebar-container"></div>
 
   <!-- Main Content -->
   <main class="content">
     
     <!-- About -->
-    <h2 id="anchor-about" class="section-title">About Me</h2>
+    <div id="anchor-about" class="sidebar-section" sidebar-section-title="About" page-link="#anchor-about"></div>
     <section id="about" class="about">
+      <h2  class="section-title">About</h2>
       <h2>Welcome to My Portfolio</h2>
       <p>
         I’m a curious and passionate designer. I love designing for games and playfulness.
@@ -49,109 +33,26 @@
       </p>
     </section>
 
-    <!-- Projects -->    
-    <h2 id="anchor-projects" class="section-title">My Projects</h2>
-    <section id="projects" class="project-grid">
-            
-      <!-- Project 1 - Wickie -->
-      <a href="projects/WICKIE/Project_WICKIE.html" class="project-card">
-        <img src="projects/WICKIE/images/Thumbnail_WICKIE.png" alt="WICKIE project thumbnail." class="project-thumbnail-img">
-        <div class="project-info">
-          <p class="project-description">DADIU project of 2022. A visual and contemplative puzzle game. Made with a multidisciplinary team of 17 over 10 weeks.</p>
-          <div class="tags-group">
-            <span class="tag-role">Producer</span>
-            <span class="tag-tech">Collaboration</span>
-            <span class="tag-tech">Management</span>
-          </div>
-        </div>
-      </a>
-
-      <!-- Project 2 - FRAMEWORK -->
-      <a href="projects/FRAMEWORK/Project_FRAMEWORK.html" class="project-card">
-        <img src="projects/FRAMEWORK/images/Thumbnail_FRAMEWORK.jpg" alt="FRAMEWORK project thumbnail." class="project-thumbnail-img">
-        <div class="project-info">
-          <p class="project-description">XXXXX</p>
-          <div class="tags-group">
-            <span class="tag-role">Developer</span>
-            <span class="tag-tech">Unity</span>
-            <span class="tag-tech">C#</span>
-            <span class="tag-tech">Verdaccio</span>
-          </div>
-        </div>
-      </a>
-
-      <!-- Project 3 - STRIBE -->
-      <a href="projects/STRIBE/Project_STRIBE.html" class="project-card">
-        <img src="projects/STRIBE/images/Thumbnail_STRIBE.png" alt="STRIBE project thumbnail." class="project-thumbnail-img">
-        <div class="project-info">
-          <p class="project-description">Self published card-based game with character animations in Augmented Reality. Product reached 200% of original crowdfunding campaign goal.</p>
-          <div class="tags-group">
-            <span class="tag-role">Developer</span>
-            <span class="tag-role">Producer</span>
-            <span class="tag-tech">AR</span>
-            <span class="tag-tech">Vuforia</span>
-            <span class="tag-tech">Unity</span>
-            <span class="tag-tech">C#</span>
-          </div>
-        </div>
-      </a>
-
-      <!-- Project 4 - SERVER -->
-      <a href="projects/SERVER/Project_SERVER.html" class="project-card">
-        <img src="projects/SERVER/images/Thumbnail_SERVER.jpg" alt="SERVER project thumbnail." class="project-thumbnail-img">
-        <div class="project-info">
-          <p class="project-description">XXXXX</p>
-          <div class="tags-group">
-            <span class="tag-role">Developer</span>
-            <span class="tag-role">Sys Admin</span>
-            <span class="tag-tech">Jenkins</span>
-            <span class="tag-tech">Git</span>
-            <span class="tag-tech">Linux</span>
-            <span class="tag-tech">Docker</span>
-            <span class="tag-tech">Samba</span>
-            <span class="tag-tech">C#</span>
-          </div>
-        </div>
-      </a>
-      
-      <!-- Project 5 - DELVE -->
-      <a href="projects/DELVE/Project_DELVE.html" class="project-card">
-        <img src="projects/DELVE/images/Thumbnail_DELVE.jpg" alt="DELVE project thumbnail." class="project-thumbnail-img">
-        <div class="project-info">
-          <p class="project-description">Master Thesis Project.</p>
-          <div class="tags-group">
-            <span class="tag-role">Developer</span>
-            <span class="tag-role">Producer</span>
-            <span class="tag-tech">Unity</span>
-            <span class="tag-tech">C#</span>
-          </div>
-        </div>
-      </a>
-      
-      <!-- Project 6 - TOOLS -->
-      <a href="projects/TOOLS/Project_TOOLS.html" class="project-card">
-        <img src="projects/TOOLS/images/Thumbnail_TOOLS.png" alt="TOOLS project thumbnail." class="project-thumbnail-img">
-        <div class="project-info">
-          <p class="project-description">XXXXX</p>
-          <div class="tags-group">
-            <span class="tag-role">Developer</span>
-            <span class="tag-tech">Unity Editor</span>
-            <span class="tag-tech">C#</span>
-            <span class="tag-tech">Development Tools</span>
-          </div>
-        </div>
-      </a>            
+    <!-- Projects -->
+    <div id="anchor-projects" class="sidebar-section" sidebar-section-title="Projects" page-link="#anchor-highlighted-projects"></div>
+    <section id="highlighted-projects">
+      <h2 class="section-title">My Projects</h2>
+      <div id="project-cards-container" project-tag="home-page" class="project-grid"></div>
     </section>
     
     <!-- More Projects -->
-    <div class="more-projects">
-      <a href="projects.html">
-        See More
-      </a>
-    </div>
+    <div id="anchor-more-projects" class="sidebar-section" sidebar-section-title="More Projects" page-link="#anchor-more-projects"></div>
+    <section id="more-projects">
+      <div class="more-projects">
+        <a href="projects.html">
+          See More
+        </a>
+      </div>
+    </section>
     
     <!-- Resume -->
-    <h2 id="anchor-resume" class="section-title">Resume</h2>
+    <div id="anchor-resume" class="sidebar-section" sidebar-section-title="Resume" page-link="#anchor-resume"></div>
+    <h2 class="section-title">Resume</h2>
     <section id="resume" class="resume">
       
       <!-- Work Experiences -->
@@ -407,8 +308,9 @@
     </section>
 
     <!-- Contact -->
-    <h2 id="anchor-contact" class="section-title">Contact</h2>
-    <section id="contact", class="contact">
+    <div id="anchor-contact" class="sidebar-section" sidebar-section-title="Contact" page-link="#anchor-contact"></div>
+    <h2 class="section-title">Contact</h2>
+    <section id="contact" class="contact">
       <h2>Feel free to contact me if you want to know more about my projects, if you want to work with me, or if you just want to have a chat !</h2>
       <h2>Copenhagen DENMARK</h2>
       <h2>colin.p.h.michel@gmail.com</h2>
@@ -417,6 +319,9 @@
     
   </main>
 </div>
+<script src="javascript/projects-data.js"></script> <!-- This is for loading the projects' data. -->
+<script src="javascript/project-cards-injector.js"></script>
+<script src="javascript/sidebar.js" id="sidebarCaller" data-dewth="0"></script>
 <script src="javascript/SidebarNavigationHighlight.js"></script>
 </body>
 </html>
