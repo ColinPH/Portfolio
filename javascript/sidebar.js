@@ -9,12 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
     
     document.getElementById("sidebar-container").innerHTML = `
-        <aside class="sidebar">
-            <div class="profile">
-                <img src="${pathPrefix}images/Profile_Colin.jpeg" alt="Colin Michel" class="profile-img">
-                <h1>Colin Michel</h1>
-                <p>Game Development & Production</p>
-            </div>
+        <aside class="sidebar">           
             <nav class="navigation">
                 <ul id="dynamic-sidebar-links"></ul>
             </nav>
