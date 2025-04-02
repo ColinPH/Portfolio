@@ -6,6 +6,7 @@
     width: 100%;
     height: 200px;
     object-fit: cover;
+    border-radius: 5px;
 }
 
 .project-page-info {
@@ -15,4 +16,96 @@
 .project-page-description {
     font-size: 1rem;
     margin-bottom: 10px;
+}
+
+.project-container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+
+
+h1, h2 {
+    color: #333;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.info {
+    font-style: italic;
+    color: #555;
+}
+
+.contributions {
+    display: flex;
+    flex-direction: column;
+}
+
+.contribution-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.contribution-item strong {
+    flex: 1;
+    font-weight: bold;
+    color: #333;
+}
+
+.contribution-description {
+    flex: 2;
+    padding-left: 20px;
+    color: #555;
+}
+
+.challenges, .code-highlight {
+    background: #f9f9f9;
+    padding: 10px;
+    border-left: 4px solid #333;
+}
+
+.code-highlight pre {
+    background: #222;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+}
+
+.project-page-img img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.image-overlay {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 1.2em;
 }

@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <ul id="dynamic-sidebar-links"></ul>
             </nav>
             <footer>
-                <p>March 2025</p>
+                <p>April 2025</p>
             </footer>
         </aside>
     `;
