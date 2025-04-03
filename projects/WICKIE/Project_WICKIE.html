@@ -5,41 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Colin Michel - Wickie & The Soul Keeper</title>
     <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="../../css/projectpage.css">
 </head>
 <body>
 <div class="main-horizontal-container">
     <!-- Left Sidebar -->
-    <div id="sidebar-container"></div>
-    
+    <div id="sidebar-container"></div>    
     <div class="sidebar-section" sidebar-section-title="HOME" page-link="../../index.html"></div>
     <div class="sidebar-section" sidebar-section-title="Back" page-link="../../projects.html"></div>
-    
+
+    <!-- Project content -->
     <main class="content">
-        <h2 class="project-page-title">
-            Wickie & The Soul Keeper
-        </h2>
-        <!-- Title -->
+        <div class="project-content">
 
+            <h1 class="project-title">
+                Wickie & The Soul Keeper
+            </h1>
 
-
-
-
-        <div class="project-container">
-            <header>
-                <h1>My Game Project</h1>
-                <p class="info">Solo Project | Completed in 6 Months | My Role: Developer & Designer</p>
-            </header>
-
-            <section class="section" id="the-game">
-                <h2>The Game</h2>
-                <div class="image-container">
+            <div class="icon-list">
+                <div class="icon-item">
+                    <img src="../../images/icons/Icon_Time.png" alt="Code Icon">
+                    <span>12 Weeks</span>
+                </div>
+                <div class="icon-item">
+                    <img src="../../images/icons/Icon_People.png" alt="AI Icon">
+                    <span>17 People</span>
+                </div>
+                <div class="icon-item">
+                    <img src="../../images/icons/Icon_Role.png" alt="Physics Icon">
+                    <span>Producer, Programmer</span>
+                </div>
+            </div>
+            
+            <section class="project-section">
+                <div class="project-section-title">
+                    <h2>The Game</h2>
+                </div>
+                <hr>
+                <p>
+                    This game is a 2D platformer featuring procedural level generation and an AI-driven enemy system. Built with Unity and C#, it leverages custom physics and shader effects for a dynamic experience.
+                </p>
+                <div class="project-image">
                     <img src="images/Thumbnail_WICKIE.png" alt="Game Screenshot">
                 </div>
-                <p>This game is a 2D platformer featuring procedural level generation and an AI-driven enemy system. Built with Unity and C#, it leverages custom physics and shader effects for a dynamic experience.</p>
+                
             </section>
 
-            <section class="section contributions">
-                <h2>My Contributions</h2>
+            <section class="project-section">
+                <div class="project-section-title">
+                    <h2>My Contributions</h2>
+                </div>
+                <hr>
                 <div class="contribution-item">
                     <strong>Procedural Generation:</strong>
                     <p class="contribution-description">Implemented a tile-based level generator ensuring diverse environments.</p>
@@ -54,13 +70,17 @@
                 </div>
             </section>
 
-            <section class="section challenges">
-                <h2>Challenges</h2>
+            <section class="project-section">
+                <div class="project-section-title">
+                    <h2>Challenges</h2>
+                </div>
                 <p>One of the major challenges was optimizing procedural generation to ensure both variety and playability. The solution involved using pathfinding algorithms to validate generated levels.</p>
             </section>
 
-            <section class="section code-highlight">
-                <h2>Code Highlight</h2>
+            <section class="project-section">
+                <div class="project-section-title">
+                    <h2>Code Highlight</h2>
+                </div>
                 <pre><code>
 public void GenerateLevel() {
     for (int x = 0; x < width; x++) {
@@ -75,12 +95,14 @@ public void GenerateLevel() {
                 <p>This function generates procedural levels while ensuring valid player paths.</p>
             </section>
 
-            <footer>
-                <p>View the source code on <a href="https://github.com/mygame">GitHub</a></p>
-            </footer>
+            <section class="project-section">
+                <footer>
+                    <p>View the source code on <a href="https://github.com/mygame">GitHub</a></p>
+                </footer>
+            </section>
+
         </div>
-        
-    </main>
+    </main>    
 </div>
 <script src="../../javascript/sidebar.js" id="sidebarCaller" data-depth="2"></script>
 </body>
