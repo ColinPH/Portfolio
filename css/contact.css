@@ -1,0 +1,10 @@
+.contact {
+    padding-bottom: 50px;
+}
+
+.contact-info {
+    text-align: center;
+    font-weight: normal; /* Not bold */
+    font-size: 1rem;     /* Adjust as needed */
+    line-height: 1.5;    /* Better readability */
+}
