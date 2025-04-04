@@ -1,5 +1,15 @@
 const projectsData = [
     {
+        title: "NEIGHBORS: Suburban Warfare",
+        imageAlt: "NEIGHBORS project thumbnail.",
+        thumbnail: "projects/NEIGHBORS/images/Thumbnail_NEIGHBORS.jpg",
+        description: "Multiplayer online battle game where you protect your house from pesky neighbors and attack your rivals. Releasing to Steam in Early Access on April 17th 2025.",
+        link: "projects/NEIGHBORS/Project_NEIGHBORS.html",
+        roleTags: ["Programmer", "System Designer", "QA"],
+        competenceTags: ["Unreal Engine", "Blueprints", "QA", "Agile Workflow", "Game Balancing"],
+        categories: ["all", "home-page"]
+    },
+    {
         title: "Wickie & The Soul Keeper",
         imageAlt: "Wickie project thumbnail.",
         thumbnail: "projects/WICKIE/images/Thumbnail_WICKIE.png",
