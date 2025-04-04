@@ -27,6 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <a href="${project.link}" class="project-card">
                     <img src="${project.thumbnail}" alt="${project.imageAlt}" class="project-thumbnail-img">
                     <div class="project-info">
+                    <h3 class="project-card-title">${project.title}</h3>
                         <p class="project-description">${project.description}</p>
                         <div class="tags-group">
                             ${tags}

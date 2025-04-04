@@ -11,7 +11,7 @@ const projectsData = [
         categories: ["all", "home-page"]
     },
     {
-        title: "FRAMEWORK",
+        title: "Project FRAMEWORK",
         imageAlt: "FRAMEWORK project thumbnail.",
         thumbnail: "projects/FRAMEWORK/images/Thumbnail_FRAMEWORK.jpg",
         description: "A self developed set of Unity packages that support fast iteration and code reusability through multiple projects.",
@@ -32,7 +32,7 @@ const projectsData = [
         categories: ["all", "home-page"]
     },
     {
-        title: "SERVER",
+        title: "CI/CD Server",
         imageAlt: "SERVER project thumbnail.",
         thumbnail: "projects/SERVER/images/Thumbnail_SERVER.jpg",
         description: "Built and installed a game development server to support my team with CI/CD pipelines. " +
@@ -53,7 +53,7 @@ const projectsData = [
         categories: ["all", "home-page"]
     },
     {
-        title: "TOOLS",
+        title: "Development Tools",
         imageAlt: "TOOLS project thumbnail.",
         thumbnail: "projects/TOOLS/images/Thumbnail_TOOLS.png",
         description: "A set of tools and Unity editor extensions to improve my team's pipelines and boost our productivity. " +

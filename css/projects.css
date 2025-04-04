@@ -21,6 +21,13 @@
     width: 100%;
 }
 
+.project-card-title {
+    font-size: 1.25rem;       /* Title font size */
+    font-weight: bold;        /* Title boldness */
+    color: #333;              /* Title color */
+    margin-bottom: 10px;
+}
+
 .project-card:hover {
     transform: scale(1.05);
 }
