@@ -5,35 +5,134 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Colin Michel - STRIBE</title>
     <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="../../css/projectpage.css">
 </head>
 <body>
 <div class="main-horizontal-container">
     <!-- Left Sidebar -->
     <div id="sidebar-container"></div>
-
     <div class="sidebar-section" sidebar-section-title="HOME" page-link="../../index.html"></div>
-    <div class="sidebar-section" sidebar-section-title="Back" page-link="../../projects.html"></div>
+    <div class="sidebar-section" sidebar-section-title="PROJECTS" page-link="../../projects.html"></div>
 
+    <!-- Project content -->
     <main class="content">
-        <h2 class="project-title">
-            STRIBE
-        </h2>
+        <div class="project-content">
 
-        <div>
+            <h1 class="project-title">
+                STRIBE
+            </h1>
 
-            description
-        </div>
-
-        <div>
-
-            image
-        </div>
-
-        <a href="">
-            <div>
-                Itch.io page
+            <div class="icon-list">
+                <div class="icon-item">
+                    <img src="../../images/icons/Icon_Time.png" alt="Code Icon">
+                    <span>16 Weeks</span>
+                </div>
+                <div class="icon-item">
+                    <img src="../../images/icons/Icon_People.png" alt="AI Icon">
+                    <span>3 People</span>
+                </div>
+                <div class="icon-item">
+                    <img src="../../images/icons/Icon_Role.png" alt="Physics Icon">
+                    <span>Programmer, Producer</span>
+                </div>
             </div>
-        </a>
+
+            <div id="anchor-the-game" class="sidebar-section" sidebar-section-title="The Game" page-link="#anchor-the-game"></div>
+            <section class="project-section" id="the-game">
+                <div class="project-section-title">
+                    <h2>The Game</h2>
+                </div>
+                <hr>
+                <div class="project-description">
+                    <p>
+                        STRIBE is a physical card game with augmented reality. 
+                        A crowdfunded project which reached 200% of its initial goal, allowing players to fight by creating combinations among the 5 different tribes with unique powers. 
+                        Plays with up to 5 people.
+                    </p>
+                </div>
+                <div class="project-image">
+                    <img src="images/STRIBE_Image_1.jpg" alt="Game Screenshot">
+                    <div class="image-caption">
+                        Overview of the deck, cards and app.
+                    </div>
+                </div>
+                <div class="project-image">
+                    <img src="images/STRIBE_GIF_1.gif" alt="Game Screenshot">
+                    <div class="image-caption">
+                        GIF of how to use the app.
+                    </div>
+                </div>
+                <div class="project-image">
+                    <img src="images/STRIBE_Image_3.jpg" alt="Game Screenshot">
+                    <div class="image-caption">
+                        Overview of how the app works.
+                    </div>
+                </div>
+                <div class="project-image">
+                    <img src="images/STRIBE_Image_7.jpg" alt="Game Screenshot">
+                    <div class="image-caption">
+                        Characters overview.
+                    </div>
+                </div>
+            </section>
+
+
+            <div id="anchor-contributions" class="sidebar-section" sidebar-section-title="Contributions" page-link="#anchor-contributions"></div>
+            <section class="project-section" id="contributions">
+                <div class="project-section-title">
+                    <h2>My Contributions</h2>
+                </div>
+                <hr>
+                <div class="info-item">
+                    <strong>Unity Developer</strong>
+                    <p class="info-description">In this project I was responsible for the entire development of the application. 
+                        Working together with the artist to communicate about the required assets. 
+                        I used Vuforia then Easy AR to create the augmented reality effects. 
+                        The application was released on both Android and Apple stores.</p>
+                </div>
+                <div class="info-item">
+                    <strong>Accounting</strong>
+                    <p class="info-description">In order to make sure the project would become and remain financially viable over the crowdfunding campaign, I created an Excel sheet to oversee all the expenses and potential earnings. 
+                        This has led to a major restructuring of the stretch goals which saved the project from loosing money.</p>
+                </div>
+                <div class="project-image">
+                    <img src="images/STRIBE_Image_4.png" alt="Game Screenshot">
+                    <div class="image-caption">
+                        Overview page of the costs/profit based on the amount of backers.
+                    </div>
+                </div>
+            </section>
+
+            <div id="anchor-campaign" class="sidebar-section" sidebar-section-title="Crowdfunding" page-link="#anchor-campaign"></div>
+            <section class="project-section" id="campaign">
+                <div class="project-section-title">
+                    <h2>Crowdfunding Campaign</h2>
+                </div>
+                <hr>
+                <div class="project-description">
+                    <p>
+                        In this project I have had the chance to help organize a crowdfunding campaign to bring the card game to life.
+                        From translation to accounting, I have made sure that the project was financially viable.
+                    </p>
+                </div>
+                <div class="project-image">
+                    <img src="images/STRIBE_Image_2.jpg" alt="Game Screenshot">
+                    <div class="image-caption">
+                        The page for the crowdfunding campaign.
+                    </div>
+                </div>
+            </section>
+
+            <div id="anchor-links" class="sidebar-section" sidebar-section-title="Links" page-link="#anchor-links"></div>
+            <section class="project-section" id="links">
+                <div class="project-section-title">
+                    <h2>Links</h2>
+                </div>
+                <hr>
+                <p>See campaign page <a href="https://www.ulule.com/stribe/">here</a></p>
+            </section>
+
+        </div>
     </main>
 </div>
 <script src="../../javascript/sidebar.js" id="sidebarCaller" data-depth="2"></script>
