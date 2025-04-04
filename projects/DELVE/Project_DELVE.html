@@ -5,39 +5,132 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Colin Michel - DELVE</title>
     <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="../../css/projectpage.css">
 </head>
 <body>
 <div class="main-horizontal-container">
     <!-- Left Sidebar -->
     <div id="sidebar-container"></div>
-
     <div class="sidebar-section" sidebar-section-title="HOME" page-link="../../index.html"></div>
     <div class="sidebar-section" sidebar-section-title="Back" page-link="../../projects.html"></div>
 
+    <!-- Project content -->
     <main class="content">
-        <h2 class="project-title">
-            DELVE
-        </h2>
-        <!-- Title -->
-        <div>
-            TITLE
-        </div>
+        <div class="project-content">
 
-        <div>
+            <h1 class="project-title">
+                Wickie & The Soul Keeper
+            </h1>
 
-            description
-        </div>
-
-        <div>
-
-            image
-        </div>
-
-        <a href="">
-            <div>
-                Itch.io page
+            <div class="icon-list">
+                <div class="icon-item">
+                    <img src="../../images/icons/Icon_Time.png" alt="Code Icon">
+                    <span>12 Weeks</span>
+                </div>
+                <div class="icon-item">
+                    <img src="../../images/icons/Icon_People.png" alt="AI Icon">
+                    <span>17 People</span>
+                </div>
+                <div class="icon-item">
+                    <img src="../../images/icons/Icon_Role.png" alt="Physics Icon">
+                    <span>Producer, Programmer</span>
+                </div>
             </div>
-        </a>
+
+            <section class="project-section">
+                <div class="project-section-title">
+                    <h2>The Game</h2>
+                </div>
+                <hr>
+                <div class="project-description">
+                    <p>
+                        This game is a 2D platformer featuring procedural level generation and an AI-driven enemy system. Built with Unity and C#, it leverages custom physics and shader effects for a dynamic experience.
+                    </p>
+                </div>
+                <div class="project-image">
+                    <img src="images/Thumbnail_DELVE.jpg" alt="Game Screenshot">
+                </div>
+                <div class="image-caption">
+                    Realtime screenshot of the game. Custom camera angle.
+                </div>
+            </section>
+
+            <section class="project-section">
+                <div class="project-section-title">
+                    <h2>My Contributions</h2>
+                </div>
+                <p class="italic-sidenote">
+                    As a producer, I have found myself providing help to the team whenever, wherever and however possible.
+                    This means that I have done a lot of different tasks which I will describe bellow.
+                </p>
+                <hr>
+                <div class="info-item">
+                    <strong>IT Support - Plastic SCM</strong>
+                    <p class="info-description">As I was the person in the project with the most experience in using Plastic SCM, I installed and explained to all team members how to use it.
+                        Throughout the project I always helped my team members with solving merge conflicts, and I kept the overview of the creation of branches and merges.</p>
+                </div>
+                <div class="info-item">
+                    <strong>Unity Consultant</strong>
+                    <p class="info-description">Given my experience with making games in Unity, I was able to help different people from the team solve the problems they had in Unity.
+                        This ranges from debugging to ensuring the assets were properly imported and located.</p>
+                </div>
+                <div class="info-item">
+                    <strong>Programmer</strong>
+                    <p class="info-description">Given my experience in game development, I was able to support the programming department and create QA tools to make testing easier.
+                        I also often provided guidance on how to solve problems in Unity.
+                        I implemented a large part of the sounds for the sound design department.
+                        I created the scene loading system, and I created multiple Editor Tools to help the Art department import assets and create screenshots.
+                        Later in the development phase I also created a script that would build the game with only a single click to make the building process faster.</p>
+                </div>
+                <div class="info-item">
+                    <strong>Ideation Facilitator</strong>
+                    <p class="info-description">While in the development phase of the project, I led multiple sessions with my Game Director and Art director to make their visions come together and align.</p>
+                </div>
+                <div class="info-item">
+                    <strong>Group Cohesion</strong>
+                    <p class="info-description">Throughout the project, I did my best to ensure a good cohesion between the team members.
+                        To do this I made sure to always communicate clearly the important pieces of information coming from DADIU officials, I often organized presentation for the team to be informed about the latest decisions from the leads regarding the game.
+                        And I bought food the team each day to facilitate a collective lunch which was very well received and bonded the team even more.</p>
+                </div>
+                <div class="info-item">
+                    <strong>Scoping and Adaptability</strong>
+                    <p class="info-description">Throughout this project, I had to rethink my approach to development and planning based on the context of the team.
+                        Rescoping my plans and adapting my approach have been my main focus points to ensure the team was able to create the best game.</p>
+                </div>
+            </section>
+
+            <section class="project-section">
+                <div class="project-section-title">
+                    <h2>Challenges</h2>
+                </div>
+                <p>One of the major challenges was optimizing procedural generation to ensure both variety and playability. The solution involved using pathfinding algorithms to validate generated levels.</p>
+            </section>
+
+            <section class="project-section">
+                <div class="project-section-title">
+                    <h2>Code Highlight</h2>
+                </div>
+                <pre><code>
+public void GenerateLevel() {
+    for (int x = 0; x < width; x++) {
+        for (int y = 0; y < height; y++) {
+            if (Random.value > 0.7f) {
+                PlaceTile(x, y);
+            }
+        }
+    }
+}
+            </code></pre>
+                <p>This function generates procedural levels while ensuring valid player paths.</p>
+            </section>
+
+            <section class="project-section">
+                <footer>
+                    <p>View the source code on <a href="https://github.com/mygame">GitHub</a></p>
+                </footer>
+            </section>
+
+        </div>
     </main>
 </div>
 <script src="../../javascript/sidebar.js" id="sidebarCaller" data-depth="2"></script>
