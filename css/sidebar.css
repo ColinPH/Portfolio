@@ -1,7 +1,7 @@
 .sidebar {
     position: sticky;
     top: 0;
-    width: 150px;
+    width: 200px;
     height: 100vh;
     background-color: #393E46;
     color: #fff;
@@ -19,11 +19,11 @@
 
 .navigation ul {
     list-style-type: none;
-    padding: 0;
+    padding: 10px;
 }
 
 .navigation li {
-    margin: 10px 0;
+    margin: 25px 0;
 }
 
 .navigation a {

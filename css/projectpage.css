@@ -28,7 +28,7 @@ hr {
 
 .project-section {
     margin-bottom: 10px;
-    width: 800px;
+    width: 1000px;
     background: white;
     padding: 20px;
     border-radius: 10px;
@@ -43,6 +43,7 @@ hr {
     height: 100%;
     object-fit: cover;
     border-radius: 5px;
+    margin-bottom: 20px;
 }
 .project-image img {
     width: 100%;
@@ -53,6 +54,10 @@ hr {
 .project-description {
     padding-bottom: 10px;
     text-align: justify;
+}
+
+.project-description p {
+    margin-bottom: 10px;
 }
 
 .image-caption {

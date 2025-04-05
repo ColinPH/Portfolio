@@ -60,7 +60,7 @@ const projectsData = [
         link: "projects/DELVE/Project_DELVE.html",
         roleTags: ["Programmer", "Producer"],
         competenceTags: ["Unity", "C#", "ClickUp", "Agile Workflow"],
-        categories: ["all", "home-page"]
+        categories: ["all"]
     },
     {
         title: "Development Tools",

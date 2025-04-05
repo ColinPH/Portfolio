@@ -45,29 +45,106 @@
                 <hr>
                 <div class="project-description">
                     <p>
-                        xxxx
+                        A game development server to help me and my team iterate faster and create custom pipelines that better fit our work. 
+                        This project has been ongoing and started in March 2024. 
+                        This project exists because I wanted to replicate/use/improve some of the tools I saw when working in the industry.
+                        Using my own research and experimentation with ChatGPT, I was able to 
+                    </p>
+                    <p>
+                        This project exists because I wanted to replicate/use/improve some of the tools I saw when working in the industry.
+                        I have always been passionate about work pipelines and how tools and automation could support a team.
+                        I see this as my opportunity to learn, practice, explore, refine, test all the pipeline ideas I come up with.
+                    </p>
+                    <p>
+                        I started this project with some theoretical knowledge but no practical experience in system administration.
+                        This has been a great opportunity to learn using online resources and ChatGPT.
+                        My approach with using ChatGPT has been and still is that I make sure I understand what I write before using it. 
+                        And I heavily test what I learned to make sure I understand it on a deeper level.
                     </p>
                 </div>
             </section>
 
-
-            <div id="anchor-server-build" class="sidebar-section" sidebar-section-title="Server Build" page-link="#anchor-server-build"></div>
+            <div id="anchor-server-build" class="sidebar-section" sidebar-section-title="Server Assembly" page-link="#anchor-server-build"></div>
             <section class="project-section" id="contributions">
                 <div class="project-section-title">
-                    <h2>Server Build</h2>
+                    <h2>Server Assembly</h2>
                 </div>
                 <hr>
-                <div class="info-item">
-                    <strong>xxxx</strong>
-                    <p class="info-description">xxxx</p>
+                <div class="project-description">
+                    <p>
+                        Having used laptops, I always wanted to assemble a computer. This was the perfect opportunity. 
+                        I used a second-hand motherboard with CPU, RAM and cooler. 
+                        Around which I built the other components.
+                    </p>
+                    <p>
+                        The server does not have a GPU installed. 
+                        This was deliberate because of energy consumption and due to the fact that the Unity builds I intended to run required only the CPU.
+                        I have plans on adding a GPU when project builds require it. 
+                        Or when I integrate some automated test that run the executable.
+                    </p>
+                    <p>
+                        The server has multiple drives with each their own responsibility. 
+                        An NVME for running the software, an SSD for storing the projects and repos. 
+                        And a HDD for storing backups.
+                    </p>
+                </div>
+                <div class="project-image">
+                    <img src="images/SERVER_Image_1.jpg" alt="Server assembly test">
+                    <div class="image-caption">
+                        Assembly of the server and first boot test.
+                    </div>
+                </div>
+            </section>
+            
+            <div id="anchor-git-repo" class="sidebar-section" sidebar-section-title="Package Registry" page-link="#anchor-package-registry"></div>
+            <section class="project-section">
+                <div class="project-section-title">
+                    <h2>Git Repos</h2>
+                </div>
+                <hr>
+                <div class="project-description">
+                    <p>
+                        On the server, I used Git to host my own repositories.
+                    </p>
+                    <p>
+                        Having setup multiple repos for my past projects using github or Plastic SCM. 
+                        I wanted to know how to host my own repo. 
+                        And through that being able to own my data and not have to rely on paid subscriptions.
+                    </p>
+                </div>
+            </section>
+
+            <div id="anchor-jenkins" class="sidebar-section" sidebar-section-title="Jenkins" page-link="#anchor-jenkins"></div>
+            <section class="project-section">
+                <div class="project-section-title">
+                    <h2>Jenkins</h2>
+                </div>
+                <hr>
+                <div class="project-description">
+                    <p>
+                        The server runs Jenkins to manage the different automated tasks and manual publications.
+                    </p>
+                </div>
+                <div class="project-image">
+                    <img src="images/SERVER_Image_JenkinsDashboard.png" alt="Server assembly test">
+                    <div class="image-caption">
+                        Jenkins dashboard with an overview of all the projects and pipelines.
+                    </div>
                 </div>
                 <div class="project-description">
                     <p>
-                        xxxx
+                        Most pipelines are automatic. But some pipelines are made for the users to interact with the server.
+                        Whether that is to publish a given build, or remove a build from the archive.
                     </p>
                 </div>
+                <div class="project-image">
+                    <img src="images/SERVER_Image_JenkinsPublish.png" alt="Server assembly test">
+                    <div class="image-caption">
+                        Parameters for manually publishing a build to platforms.
+                    </div>
+                </div>
             </section>
-
+            
             <div id="anchor-package-registry" class="sidebar-section" sidebar-section-title="Package Registry" page-link="#anchor-package-registry"></div>
             <section class="project-section">
                 <div class="project-section-title">
@@ -76,24 +153,82 @@
                 <hr>
                 <div class="project-description">
                     <p>
-                        xxx
+                        I use Verdaccio to host a upm package registry. 
+                        This is a way for me and my team to create packages and share them across projects using the Package Manager in Unity.
+                        This makes it much easier to control what packages we want in each project.
                     </p>
+                    <p>
+                        You can learn more about the packages I host in the <a href="../FRAMEWORK/Project_FRAMEWORK.html">FRAMEWORK Project</a>.
+                    </p>
+                </div>
+                <div class="project-image">
+                    <img src="images/SERVER_Image_Verdaccio.png" alt="Server assembly test">
+                    <div class="image-caption">
+                        Web interface of the Verdaccio package registry.
+                    </div>
                 </div>
             </section>
             
-            <div id="anchor-git-repo" class="sidebar-section" sidebar-section-title="Package Registry" page-link="#anchor-package-registry"></div>
-            <section class="project-section">
+            <div id="anchor-discord-bot" class="sidebar-section" sidebar-section-title="Discord Bot" page-link="#anchor-discord-bot"></div>
+            <section class="project-section" id="discord-bot">
                 <div class="project-section-title">
-                    <h2>Package Registry</h2>
+                    <h2>Discord Bot</h2>
                 </div>
                 <hr>
                 <div class="project-description">
                     <p>
-                        xxx
+                        The server runs a discord bot that informs the team, with some humor, about the state of the automated build and publication.
+                        When the message is posted it means that people from the team can download the build from the server.
                     </p>
+                </div>
+                <div class="project-image">
+                    <img src="images/SERVER_Image_DiscordBot.png" alt="Server assembly test">
+                    <div class="image-caption">
+                        Message posted by the discord bot when the build has been successful.
+                    </div>
+                </div>
+                <div class="project-description">
+                    <p>
+                        If a build fails because of some compilation errors, the bot provides a file with only the relevant errors. 
+                        Just like we would see them in the Unity console when building.
+                        This has been done so that the programmers can easily see the errors and start working on them without having to fetch them from the server manually.
+                    </p>
+                </div>
+                <div class="project-image">
+                    <img src="images/SERVER_Image_DiscordBot_Fail.png" alt="Server assembly test">
+                    <div class="image-caption">
+                        Message posted by the discord bot when the build has failed.
+                    </div>
+                </div>
+                <div class="project-description">
+                    <p>
+                        One of the Jenkins pipelines allows users to publish a specific build to the desired platform.
+                        The discord bot also announces this to help the team stay informed about what is happening.
+                    </p>
+                </div>
+                <div class="project-image">
+                    <img src="images/SERVER_Image_DiscordBot_Publish.png" alt="Server assembly test">
+                    <div class="image-caption">
+                        Message posted by the discord bot when a build has been published.
+                    </div>
                 </div>
             </section>
 
+            <div id="anchor-samba" class="sidebar-section" sidebar-section-title="Samba File Share" page-link="#anchor-samba"></div>
+            <section class="project-section">
+                <div class="project-section-title">
+                    <h2>Samba File Share</h2>
+                </div>
+                <hr>
+                <div class="project-description">
+                    <p>
+                        To provide the team with a place to share files and data, I have set up a Samba share on the server.
+                        This allows us to easily access the shared directories from our machine explorer windows. 
+                        While not having to worry about any fees or other limitations that can occur with solutions like Google Drive.
+                    </p>
+                </div>
+            </section>
+            
         </div>
     </main>
 </div>
