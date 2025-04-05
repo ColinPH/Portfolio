@@ -5,35 +5,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Colin Michel - FRAMEWORK</title>
     <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="../../css/projectpage.css">
 </head>
 <body>
 <div class="main-horizontal-container">
     <!-- Left Sidebar -->
     <div id="sidebar-container"></div>
-
     <div class="sidebar-section" sidebar-section-title="HOME" page-link="../../index.html"></div>
-    <div class="sidebar-section" sidebar-section-title="Back" page-link="../../projects.html"></div>
+    <div class="sidebar-section" sidebar-section-title="PROJECTS" page-link="../../projects.html"></div>
 
+    <!-- Project content -->
     <main class="content">
-        <h2 class="project-title">
-            FRAMEWORK
-        </h2>
+        <div class="project-content">
 
-        <div>
+            <h1 class="project-title">
+                Project FRAMEWORK
+            </h1>
 
-            description
-        </div>
-
-        <div>
-
-            image
-        </div>
-
-        <a href="">
-            <div>
-                Itch.io page
+            <div class="icon-list">
+                <div class="icon-item">
+                    <img src="../../images/icons/Icon_Time.png" alt="Code Icon">
+                    <span>Ongoing</span>
+                </div>
+                <div class="icon-item">
+                    <img src="../../images/icons/Icon_People.png" alt="AI Icon">
+                    <span>Solo Project</span>
+                </div>
+                <div class="icon-item">
+                    <img src="../../images/icons/Icon_Role.png" alt="Physics Icon">
+                    <span>Programmer</span>
+                </div>
             </div>
-        </a>
+
+            <div id="anchor-the-project" class="sidebar-section" sidebar-section-title="The Project" page-link="#anchor-the-project"></div>
+            <section class="project-section" id="the-project">
+                <div class="project-section-title">
+                    <h2>The Project</h2>
+                </div>
+                <hr>
+                <div class="project-description">
+                    <p>
+                        xxxx
+                    </p>
+                </div>
+            </section>
+
+
+            <div id="anchor-unity-packages" class="sidebar-section" sidebar-section-title="Unity Packages" page-link="#anchor-unity-packages"></div>
+            <section class="project-section" id="contributions">
+                <div class="project-section-title">
+                    <h2>Unity Packages</h2>
+                </div>
+                <hr>
+                <div class="info-item">
+                    <strong>xxxx</strong>
+                    <p class="info-description">xxxx</p>
+                </div>
+                <div class="project-description">
+                    <p>
+                        In this project I have had the chance to help organize a crowdfunding campaign to bring the card game to life.
+                        From translation to accounting, I have made sure that the project was financially viable.
+                    </p>
+                </div>
+            </section>
+
+        </div>
     </main>
 </div>
 <script src="../../javascript/sidebar.js" id="sidebarCaller" data-depth="2"></script>
