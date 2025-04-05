@@ -28,6 +28,10 @@
     margin-bottom: 10px;
 }
 
+.project-highlights {
+    margin-bottom: 50px;
+}
+
 .project-card:hover {
     transform: scale(1.05);
 }

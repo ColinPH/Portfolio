@@ -44,7 +44,7 @@ const projectsData = [
     {
         title: "CI/CD Server",
         imageAlt: "SERVER project thumbnail.",
-        thumbnail: "projects/SERVER/images/Thumbnail_SERVER.jpg",
+        thumbnail: "projects/SERVER/images/Thumbnail_SERVER.png",
         description: "Built and installed a game development server to support my team with CI/CD pipelines. " +
             "Self-hosting our project repositories and Unity package registry. Automated builds and user-friendly build publishing jobs.",
         link: "projects/SERVER/Project_SERVER.html",
@@ -71,7 +71,7 @@ const projectsData = [
         link: "projects/TOOLS/Project_TOOLS.html",
         roleTags: ["Programmer", "UX Designer", "System Admin", "DevOps"],
         competenceTags: ["Unity Editor", "C#", "Bash", "UI", "UX", "User Centered Design"],
-        categories: ["all", "home-page"]
+        categories: ["all"]
     },
     {
         title: "FISHTON",
