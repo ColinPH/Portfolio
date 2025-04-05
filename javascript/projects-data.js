@@ -28,7 +28,7 @@ const projectsData = [
         link: "projects/FRAMEWORK/Project_FRAMEWORK.html",
         roleTags: ["Programmer", "System Admin", "DevOps"],
         competenceTags: ["Unity", "C#", "Verdaccio"],
-        categories: ["all", "home-page"]
+        categories: ["all"]
     },
     {
         title: "STRIBE",
