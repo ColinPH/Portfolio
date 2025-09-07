@@ -21,6 +21,17 @@ const projectsData = [
         categories: ["all", "home-page"]
     },
     {
+        title: "Tempest Tower",
+        imageAlt: "Tempest Tower project thumbnail.",
+        thumbnail: "projects/TEMPESTTOWER/images/Thumbnail_TEMPESTTOWER.jpg",
+        description: "Prototyped the next game project for the Half Past Yellow team, and helped them finish and release their game Tempest Tower. " +
+            "I also took part in showcasing Tempest Tower at Gamescom 2025.",
+        link: "projects/TEMPESTTOWER/Project_TEMPESTTOWER.html",
+        roleTags: ["Programmer"],
+        competenceTags: ["Unity", "C#", "Prototyping"],
+        categories: ["all", "home-page"]
+    },
+    {
         title: "Project FRAMEWORK",
         imageAlt: "FRAMEWORK project thumbnail.",
         thumbnail: "projects/FRAMEWORK/images/Thumbnail_FRAMEWORK.jpg",
